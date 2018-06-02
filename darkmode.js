@@ -85,11 +85,19 @@ $(document).ready(function() {
   
   // makes the username and chevron next to it in the top-right corner white
   $('.username.no-select').css({
-  	'color': '#fff';
+  	'color': '#fff'
   });
   
   $('.aops-font.chevron-down').css({
   	'color': '#fff'
+  });
+  
+  $('.pointer').css({
+  	//'background-image': 'url(https://raw.githubusercontent.com/fishy15/aops-dark-mode/master/dark-chevron.png)',
+  	'background-color': 'white',
+  	'background-size': '31px 14px',
+  	'height': '6px',
+  	'width': '15px' 
   });
 });
 
