@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AoPS Dark Mode
 // @namespace    fishy15
-// @version      0.1
+// @version      0.2
 // @description  Make the AoPS Website look nicer by using a dark theme.
 // @author       You
 // @match        artofproblemsolving.com/*
@@ -38,7 +38,6 @@ $(document).ready(function() {
       $('#intro-wrapper').css({
           'background-image': 'url(//assets.artofproblemsolving.com/images/background_try.jpg)',
           'background-size': 'cover',
-          'opacity': '1'
       });
   }
 
